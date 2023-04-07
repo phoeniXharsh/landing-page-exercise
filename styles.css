@@ -1,0 +1,87 @@
+/* .body{
+    margin:0;
+    padding:0;
+} */
+.header{
+    display: flex;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 16px;
+}
+.header .logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.links{
+    display: flex;
+    gap: 8px;
+    margin-right: 32px;
+}
+.hero{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display:flex;
+    padding: 64px;
+}
+.hero .primary{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8;
+}
+
+.hero .secondary{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* info */
+#info-title{
+    font-size: 36px;
+    font-weight:bolder;
+    color: #1F2937;
+    text-align: center;
+    margin: 26px 0px; 
+}
+
+/* caption will just over the width of the image */
+.cards{
+    display:flex;
+    text-align: center;
+    gap: 8px;
+    margin: 0 64px;
+    margin-bottom: 32px;
+}
+.quote-body{
+    background-color: #E5E7EB;
+    padding: 32px 64px;
+    /* font-style: italic; */
+}
+.quote-body .text{
+    font-size: 36px;
+    font-style: italic;
+}
+.quote-body .author{
+    text-align: right;
+}
+
+
+.footer{
+    background-color: #1F2937;
+    padding: 16px;
+    text-align: center;
+    color: #F9FAF8;
+}
+
+.cards img{
+    height: 100px;
+    width: 80px;
+}
+
+button{
+    background-color: #3882f6;
+    color: white;
+    /* font-weight: bold; */
+}
